@@ -15,7 +15,8 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 #### 使用说明
 
-1.  main.js中导入
+1.main.js中导入
+
 `import GISUI from 'gisui'
 Vue.use(GISUI)`
 
@@ -24,8 +25,9 @@ Vue.use(GISUI)`
 ```
 <sip-legend :led="stops" :mode="place" unit="单位"/>
 ```
-| led  | 颜色和范围  |
+| 参数  | 作用  |
 |---|---|
+|  led|  颜色和范围|
 | mode  |  定义的样式 |
 |  unit |  单位 |
 

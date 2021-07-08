@@ -18,6 +18,7 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 1.  main.js中导入
 `import GISUI from 'gisui'
 Vue.use(GISUI)`
+
 2.需要用到的地方配置文件
 
 ```
@@ -27,8 +28,8 @@ Vue.use(GISUI)`
 |---|---|
 | mode  |  定义的样式 |
 |  unit |  单位 |
-led  参数：
 
+led  参数：
 ```
 const stops = [
   {
